@@ -31,5 +31,6 @@
         uploaded_avatar_img = event.currentTarget.files[0];
         new_file_object = URL.createObjectURL(uploaded_avatar_img);
         current_avatar_img.setAttribute('src', new_file_object);
+		image_form.style.display = "block";
     })
 </script>

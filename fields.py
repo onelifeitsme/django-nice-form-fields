@@ -4,7 +4,7 @@ from django.forms.fields import FileInput
 
 
 class CustomClearableFileInput(ClearableFileInput):
-    fp = pathlib.Path('django_dynamic_imagefield/dynamic_imagefield.html')
+    fp = pathlib.Path('django_nice_form_fields/dynamic_imagefield.html')
     fn = str(fp)
     template_name = fn
 
